@@ -1,0 +1,19 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>Auto Tab</title>
+
+</head>
+<body>
+<!-- just to note the form name is what used for document."phone".second -->
+  <p>Enter your 10-Digit Phone Number</p>
+  <form name="phone" method="post">
+  
+  <input type="text" name="first" size=4 onKeyup="autotab(this, document.phone.second)" maxlength=3> <input type="text" name="second" size=4 onKeyup="autotab(this, document.phone.third)" maxlength=3> <input type="text" name="third" size=5 maxlength=4>
+ 
+  </form>
+  <script type='text/javascript' src='global.js'>
+  </script>
+  
+</body>
+</html>
