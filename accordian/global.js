@@ -16,7 +16,7 @@ for (var i = 0; i < sections.length; i++)
             anchor = sections.item(i).children[0],
             below = sections.item(i).children[1];
 
-        closeBelow(below, -below.offsetHeight);
+        closeBelow(below);
 
         anchor.onclick = function () {
             if (section.getAttribute('class' ) == 'active' ) {
