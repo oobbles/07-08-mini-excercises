@@ -1,8 +1,7 @@
 .menu{
-  visibility:hidden;
+  display: none;
 }
 
-/*.menu.show{
+.menu.show{
   display: block;
 }
-*/
