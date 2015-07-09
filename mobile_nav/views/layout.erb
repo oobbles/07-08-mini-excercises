@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>FANIA</title>
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+    <script type='text/javascript' src='global.js'></script>
     <link rel="stylesheet" href="/main.css">
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
@@ -17,9 +18,10 @@
 <a href="/home" id="logo" alt="HOME"></a>
 
   <nav>
-    <a href="#" id="menu-icon"></a>
 
-    <ul>
+    <a href="#" class="menu_button" id="menu-icon"></a>
+
+    <ul class="menu">
       <li><a href="/artists/list_artists">ARTISTS</a></li>
       <li><a href="/albums/list_albums">ALBUMS</a></li>
       <li><a href="/artists/artist_of_the_week">&#9733; OF THE WEEK</a></li>
@@ -29,7 +31,6 @@
   <section>
   <%= yield %>
 </section>
-<script type='text/javascript' src='global.js'>
 
   </body>
 </html>

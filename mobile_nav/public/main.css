@@ -17,11 +17,11 @@ a {
 
 }
 
-a:hover {
+/*a:hover {
 
-	color: #444;
+  color: #444;
 
-}
+}*/
 
 img {
 
@@ -69,12 +69,12 @@ nav {
 
 }
 
-a:hover#menu-icon {
+/*a:hover#menu-icon {
 
-	background-color: #444;
-	border-radius: 4px 4px 0 0;
+  background-color: #444;
+  border-radius: 4px 4px 0 0;
 
-}
+}*/
 
 ul {
 
@@ -140,7 +140,7 @@ p {
 
 	}
 
-	nav ul, nav:active ul {
+	.menu {
 
 		display: none;
 		position: absolute;
@@ -163,7 +163,7 @@ p {
 
 	}
 
-	nav:hover ul {
+	.menu.show {
 
 		display: block;
 
